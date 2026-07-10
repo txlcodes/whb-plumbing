@@ -19,17 +19,18 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "WHB Plumbing | Plumbing Store & Supply in Anniston, AL — Pipe, Fittings, Fixtures & Parts",
+  title: "WHB Plumbing | Plumbing Repair, Installation & Supply in Anniston, AL",
   description:
-    "WHB Plumbing is Anniston, AL's plumbing store & supply house: pipe, fittings, valves, faucets, fixtures, water heaters, tools and repair parts for contractors and homeowners. Call (256) 235-9000.",
+    "WHB Plumbing is Anniston, AL's plumbing shop: licensed repairs, installations and service calls, plus a full supply counter — pipe, fittings, valves, faucets, fixtures, water heaters and tools. Call (256) 235-9000.",
   keywords: [
+    "plumber Anniston AL",
+    "plumbing repair Anniston AL",
+    "water heater installation Anniston",
+    "emergency plumber Calhoun County",
     "plumbing supply Anniston AL",
     "plumbing supply store Anniston",
     "pipe and fittings Anniston",
-    "plumbing parts Calhoun County",
-    "water heater supply Anniston",
     "contractor plumbing supply Alabama",
-    "faucets fixtures Anniston AL",
   ],
 };
 

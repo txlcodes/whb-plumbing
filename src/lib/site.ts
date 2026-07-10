@@ -7,13 +7,13 @@ export const site = {
   address: "710 Wilmer Ave, Anniston, AL 36201",
   mapsHref: "https://maps.google.com/?q=710+Wilmer+Ave,+Anniston,+AL+36201",
   hours: "Open until 9 PM — call ahead to confirm today's hours",
-  tagline: "Anniston's plumbing store & supply — pipe, fittings, fixtures & parts.",
-  serving: "The plumbing store & supply house for Anniston & Calhoun County",
+  tagline: "Anniston's plumbing repair, installation & supply — done right.",
+  serving: "Plumbing services & supply for Anniston & Calhoun County",
 };
 
 export const nav = [
   { label: "Home", href: "/" },
-  { label: "Departments", href: "/services" },
+  { label: "Services", href: "/services" },
   { label: "Gallery", href: "/gallery" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -25,158 +25,158 @@ export const socials = [
   { label: "Instagram", href: "#", icon: "youtube" }, // placeholder — confirm real page
 ];
 
-// Red icon strip directly under the hero
+// Red icon strip directly under the hero — 3 service / 1 supply
 export const serviceStrip = [
-  { label: "Pipe & Fittings", icon: "droplets" },
-  { label: "Fixtures & Faucets", icon: "showerhead" },
-  { label: "Water Heaters", icon: "gauge" },
-  { label: "Valves & Parts", icon: "wrench" },
+  { label: "Repair & Service Calls", icon: "wrench" },
+  { label: "Water Heater Install", icon: "gauge" },
+  { label: "Drain & Leak Repair", icon: "droplets" },
+  { label: "Pipe & Fixture Supply", icon: "showerhead" },
 ];
 
-// "Tired of…" pain points
+// "Tired of…" pain points — mostly service frustrations, some supply
 export const painPoints = [
+  "Calling three plumbers and hearing nothing back",
+  "A quoted price that changes once the work starts",
+  "Waiting all day for a service window that never comes",
+  "A \"fix\" that leaks again in a month",
   "Driving all over town for one little fitting",
   "Big-box aisles with nobody who knows plumbing",
-  "Grabbing the wrong part and making a second trip",
-  "“We can order it” — then waiting a week",
-  "No real contractor pricing or accounts",
-  "Picked-over shelves and out-of-stock basics",
 ];
 
-// 2×2 value grid
+// 2×2 value grid — service-led, one supply
 export const valueProps = [
   {
-    icon: "boxes",
-    title: "Deep In-Stock Inventory",
-    desc: "Aisles of everyday plumbing — pipe, fittings, valves, fixtures and repair parts on the shelf, ready to grab today.",
+    icon: "wrench",
+    title: "Licensed Plumbers On Call",
+    desc: "Repairs, installs and service calls handled by people who do this every day — not whoever answered the phone first.",
+  },
+  {
+    icon: "handshake",
+    title: "Upfront Pricing, No Surprises",
+    desc: "One clear quote before we start. You'll never get a bigger number after the work is already torn open.",
   },
   {
     icon: "store",
     title: "Real Counter Expertise",
-    desc: "Bring the old part or a photo. Our counter staff actually know plumbing and help you leave with the right piece the first time.",
-  },
-  {
-    icon: "handshake",
-    title: "Contractor Accounts",
-    desc: "Trade pricing, will-call pulls and accounts for the pros who keep Calhoun County running. Get in and get back to the job.",
+    desc: "Need a part instead of a plumber? Bring the old one in — our counter staff know plumbing and match it fast.",
   },
   {
     icon: "warehouse",
     title: "Local & Family-Run",
-    desc: "A hometown supply house on Wilmer Ave — not a big-box counter. Straight answers, fair prices, people who know your name.",
+    desc: "A hometown shop on Wilmer Ave — not a call center. Straight answers, fair prices, people who know your name.",
   },
 ];
 
 // "Here's what you can expect"
 export const expectBullets = [
-  "Deep in-stock inventory of everyday plumbing",
-  "Staff who actually know the parts",
-  "Fair pricing for pros and homeowners alike",
+  "Licensed plumbers for repairs, installs & service calls",
+  "Upfront pricing before any work begins",
+  "Deep in-stock inventory for do-it-yourselfers",
   "Fast will-call pickup and special orders",
-  "Residential and commercial supply under one roof",
+  "Residential and commercial work, done right",
 ];
 
-// Honest trust strip
+// Honest trust strip — service first
 export const trustBadges = [
+  "Licensed & Insured",
+  "Upfront Pricing",
+  "Same-Week Scheduling",
   "Contractor Accounts",
-  "Will-Call & Pickup",
-  "Special Orders",
   "Residential & Commercial",
   "Local & Family-Run",
-  "Knowledgeable Staff",
 ];
 
-// What We Do (image cards)
+// What We Do (image cards) — 4 service, 2 supply (~60/40)
 export const services = [
   {
-    title: "Pipe, Fittings & Valves",
-    desc: "Copper, PVC, PEX, CPVC and galvanized — plus the couplings, elbows, unions and valves to tie it all together, in the sizes you actually need.",
-    img: "/images/fittings.jpg",
+    title: "Drain Cleaning & Leak Repair",
+    desc: "Clogged drains, slow leaks and hidden pipe damage — diagnosed and fixed right the first time, with a clear price before we start.",
+    img: "/images/plumber.jpg",
   },
   {
-    title: "Faucets & Trim",
-    desc: "Kitchen and bath faucets, shower trim, supply lines and stops from the brands homeowners and plumbers trust — with the repair parts to match.",
-    img: "/images/faucet.jpg",
-  },
-  {
-    title: "Toilets, Sinks & Tubs",
-    desc: "Fixtures for a remodel or a quick replacement — toilets, sinks, tubs and all the flanges, gaskets and hardware that go with them.",
-    img: "/images/fixtures.jpg",
-  },
-  {
-    title: "Water Heaters & Parts",
-    desc: "Tank and tankless water heaters plus the thermocouples, elements, valves and connectors to install or repair the one you've got.",
+    title: "Water Heater Installation & Repair",
+    desc: "Tank and tankless water heaters installed, serviced and repaired — from a pilot light that won't stay lit to a full replacement.",
     img: "/images/pipes.jpg",
   },
   {
-    title: "Tools & Repair Parts",
-    desc: "Pipe wrenches, cutters, torches, solder, sealants and the hard-to-find repair parts that keep a job moving instead of stalling.",
+    title: "Fixture & Faucet Installation",
+    desc: "Faucets, toilets, sinks and tubs installed or swapped out cleanly, with the fittings and hardware matched to your home.",
+    img: "/images/fixtures.jpg",
+  },
+  {
+    title: "Repiping & Gas Line Work",
+    desc: "Copper, PVC and PEX repiping plus new gas line runs — pressure-tested and done to code by people who've run a thousand feet of pipe.",
     img: "/images/tools.jpg",
   },
   {
+    title: "Pipe, Fittings & Valves (Supply)",
+    desc: "Copper, PVC, PEX, CPVC and galvanized — plus the couplings, elbows, unions and valves to tie it together, in stock for DIY and trade.",
+    img: "/images/fittings.jpg",
+  },
+  {
     title: "Contractor Counter & Will-Call",
-    desc: "Call your list ahead, we'll pull it. Trade accounts, contractor pricing and fast will-call built for crews who can't lose an afternoon.",
-    img: "/images/plumber.jpg",
+    desc: "Call your list ahead, we'll pull it. Trade accounts, contractor pricing and fast will-call for crews who can't lose an afternoon.",
+    img: "/images/faucet.jpg",
   },
 ];
 
 export const reasons = [
   {
-    title: "Deep In-Stock Inventory",
-    desc: "The everyday plumbing you actually need is on the shelf — not a week away on a special order.",
+    title: "Licensed Plumbers, Real Work",
+    desc: "Repairs, installs and service calls handled by licensed plumbers — not a warm body with a truck.",
+  },
+  {
+    title: "Upfront Pricing on Every Job",
+    desc: "You'll know the price before we start. No surprise numbers once the wall's already open.",
   },
   {
     title: "Counter Staff Who Know Plumbing",
-    desc: "Bring the old part or a photo. We'll help you match it and leave with the right piece the first time.",
-  },
-  {
-    title: "Built for Contractors",
-    desc: "Trade pricing, accounts and fast will-call for the pros who keep Anniston and Calhoun County running.",
+    desc: "Doing it yourself? Bring the old part or a photo. We'll help you match it and leave with the right piece.",
   },
   {
     title: "Hometown, Not Big-Box",
-    desc: "A local, family-run supply house on Wilmer Ave — straight answers and fair prices, every visit.",
+    desc: "A local, family-run shop on Wilmer Ave — straight answers and fair prices, every visit and every job.",
   },
 ];
 
 export const steps = [
   {
-    title: "Tell Us What You Need",
-    desc: "Call it in, walk up to the counter, or send your list — even a photo of the old part works.",
+    title: "Call or Come By",
+    desc: "Tell us what's going on — a repair, an install, or a part you need. Even a photo of the problem helps.",
   },
   {
-    title: "We Check Stock",
-    desc: "We confirm what's on the shelf right now so you're not guessing or driving for nothing.",
+    title: "We Diagnose or Check Stock",
+    desc: "For a job, we scope it out and quote it clear. For a part, we confirm what's on the shelf right now.",
   },
   {
-    title: "Pull or Order",
-    desc: "We pull your will-call order, or special-order anything we don't stock and call you when it lands.",
+    title: "Upfront Price, No Surprises",
+    desc: "One number before any work starts, or trade pricing applied automatically at the counter.",
   },
   {
-    title: "Trade Pricing Applied",
-    desc: "Contractor accounts and trade pricing get applied automatically — no haggling at the register.",
+    title: "The Work Gets Done Right",
+    desc: "Licensed plumbers handle the job, or we pull your will-call order — either way, done properly.",
   },
   {
-    title: "Load & Go",
-    desc: "Grab it at the counter and get back to the job. In and out, the way a supply run should be.",
+    title: "Back to Normal, Fast",
+    desc: "Water's running, the leak's gone, or you're back on the job site. That's the whole point.",
   },
 ];
 
 export const testimonials = [
   {
+    name: "Rebecca H.",
+    area: "Anniston, AL",
+    text: "Had a slab leak nobody else wanted to touch. WHB found it, quoted it upfront, and had it fixed in a day. No runaround, no surprise bill at the end.",
+  },
+  {
     name: "Dwight R.",
     area: "Anniston, AL",
-    text: "I run service calls all over Calhoun County and WHB Plumbing is my first stop every morning. They've got the fittings in stock, my account's ready, and the counter guys know their stuff. Saves me an hour a day.",
+    text: "I run service calls all over Calhoun County and WHB is my first stop every morning — for parts and for backup when a job's bigger than expected. Fittings in stock, my account's ready, and the counter guys know their stuff.",
   },
   {
     name: "Carla M.",
     area: "Oxford, AL",
-    text: "Replaced a leaking faucet myself for the first time. I brought the old cartridge in, they matched it in two minutes and told me exactly what else I'd need. Way better than wandering a big-box aisle.",
-  },
-  {
-    name: "Tim & Sons Plumbing",
-    area: "Jacksonville, AL",
-    text: "We call our list in and it's pulled by the time we pull up. Fair pricing, no runaround, and if they don't have it they'll get it fast. That's why we've bought here for years.",
+    text: "They installed a new water heater same week I called, showed up on time, and cleaned up after. Way better experience than the last plumber I hired.",
   },
 ];
 
@@ -199,8 +199,24 @@ export const areas = [
 
 export const faqs = [
   {
-    q: "Do I have to be a contractor to buy from you?",
-    a: "Not at all. We're a full plumbing supply house open to everyone — licensed plumbers, contractors and DIY homeowners alike. Come to the counter with whatever you're working on and we'll help.",
+    q: "Do you do plumbing repairs, or just sell parts?",
+    a: "Both. We're licensed plumbers for repairs, installs and service calls, and we run a full supply counter for contractors and DIY homeowners. Whatever you need, one call covers it.",
+  },
+  {
+    q: "How fast can you get someone out for a repair?",
+    a: "Most non-emergency calls are scheduled within the week — often faster. Call and tell us what's going on and we'll give you a real timeline, not a runaround.",
+  },
+  {
+    q: "Do you give a price before starting the work?",
+    a: "Always. You'll get a clear, upfront price before any repair or installation begins — no surprise numbers once the job is underway.",
+  },
+  {
+    q: "Do you install water heaters?",
+    a: "Yes — tank and tankless, gas and electric. We handle the full installation plus repairs and servicing on units we didn't sell, in most cases.",
+  },
+  {
+    q: "Do I have to be a contractor to buy from your supply counter?",
+    a: "Not at all. We're a full plumbing supply house open to everyone — licensed plumbers, contractors and DIY homeowners alike. Come to the counter with whatever you're working on.",
   },
   {
     q: "Do you offer contractor pricing and accounts?",
@@ -211,34 +227,18 @@ export const faqs = [
     a: "Absolutely. If it's not on the shelf we'll special-order it and call you the moment it arrives. Bring the old part or a photo and we'll track down the right replacement.",
   },
   {
-    q: "What kinds of plumbing supplies do you carry?",
-    a: "Pipe and fittings (copper, PVC, PEX, CPVC, galvanized), valves, faucets, fixtures, toilets, sinks, tubs, water heaters, tools, sealants and a deep selection of repair parts for both residential and commercial work.",
-  },
-  {
-    q: "Can you help me find a part for an older fixture?",
-    a: "Often, yes — matching hard-to-find and older parts is one of the things a real supply counter does best. Bring in the old part or a clear photo and we'll do our best to match it.",
-  },
-  {
-    q: "Do you supply both residential and commercial jobs?",
-    a: "We do. From a homeowner's single repair to a contractor's commercial build-out, we stock and source supplies for both under one roof.",
-  },
-  {
-    q: "What are your hours?",
-    a: "Hours can vary, so it's always best to give us a quick call at (256) 235-9000 before heading over — especially for a bigger pickup or a will-call order.",
-  },
-  {
-    q: "Is it pickup, or do you deliver?",
-    a: "Most orders are will-call pickup at our Wilmer Ave counter — call your list ahead and we'll have it pulled. Need something delivered to a job site? Ask us and we'll let you know what we can do.",
+    q: "Do you handle residential and commercial jobs?",
+    a: "We do. From a homeowner's single repair to a contractor's commercial build-out, we handle the work and stock the supplies for both under one roof.",
   },
 ];
 
 export const gallery = [
+  { img: "/images/plumber.jpg", title: "Repairs & service calls" },
+  { img: "/images/pipes.jpg", title: "Water heater installation" },
+  { img: "/images/fixtures.jpg", title: "Fixture & faucet installs" },
+  { img: "/images/tools.jpg", title: "Repiping & gas line work" },
   { img: "/images/fittings.jpg", title: "Brass & copper fittings" },
   { img: "/images/faucet.jpg", title: "Faucets & fixture trim" },
-  { img: "/images/fixtures.jpg", title: "Toilets, sinks & tubs" },
-  { img: "/images/pipes.jpg", title: "Fixtures & water heater parts" },
-  { img: "/images/tools.jpg", title: "Tools & repair parts" },
-  { img: "/images/plumber.jpg", title: "Built for the trade" },
-  { img: "/images/commercial.jpg", title: "Residential & commercial supply" },
-  { img: "/images/home.jpg", title: "Everything to finish the job at home" },
+  { img: "/images/commercial.jpg", title: "Residential & commercial jobs" },
+  { img: "/images/home.jpg", title: "Every home, done right" },
 ];

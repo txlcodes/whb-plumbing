@@ -7,9 +7,9 @@ import Reveal from "@/components/Reveal";
 import { site, reasons } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About | WHB Plumbing — Anniston, AL's Plumbing Store & Supply House",
+  title: "About | WHB Plumbing — Anniston, AL's Plumbing Repair, Install & Supply Shop",
   description:
-    "WHB Plumbing is Anniston's local plumbing store & supply house: pipe, fittings, fixtures, water heaters and repair parts for contractors and homeowners on Wilmer Ave.",
+    "WHB Plumbing is Anniston's local plumbing shop: licensed repairs and installations plus a full supply counter — pipe, fittings, fixtures, water heaters and repair parts on Wilmer Ave.",
 };
 
 export default function AboutPage() {
@@ -17,8 +17,8 @@ export default function AboutPage() {
     <>
       <PageHero
         kicker="About us"
-        title="A plumbing store and supply house in one."
-        desc="WHB Plumbing is where Anniston's plumbers and homeowners come for the part — a real counter, deep shelves, and advice you can trust."
+        title="Plumbing repair, installation & supply — one shop."
+        desc="WHB Plumbing is where Anniston homeowners call for a real repair, and where local plumbers come for the part — the same honest work, either way."
       />
 
       <section className="container-x py-16 md:py-20">
@@ -26,25 +26,25 @@ export default function AboutPage() {
           <Reveal>
             <span className="kicker">Who we are</span>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-              A retail store and a real supply house.
+              Licensed plumbers, and a real supply counter.
             </h2>
             <p className="mt-5 leading-relaxed text-bark">
-              Big-box stores stock a little of everything and know none of it. We do it
-              differently. At our counter on Wilmer Ave you&apos;ll find the everyday plumbing you
-              actually need — and people who can tell a compression fitting from a sweat fitting
-              without looking it up.
+              Big-name plumbers will quote you high and sell you a callback. We do it
+              differently. Repairs, installs and service calls handled by licensed plumbers who
+              give you the price upfront — and if you'd rather do it yourself, our counter on
+              Wilmer Ave stocks the everyday plumbing you need.
             </p>
             <p className="mt-4 leading-relaxed text-bark">
-              Bring in the old part or call your list ahead. We&apos;ll match it, confirm
-              what&apos;s in stock, apply your contractor pricing, and have it ready at the
-              counter. Pros and homeowners, residential and commercial — one store &amp; supply house that
-              stands behind what it sells.
+              Need a job done? We scope it, quote it, and get it fixed right. Need a part
+              instead? Bring in the old one and we&apos;ll match it, confirm what&apos;s in
+              stock, and have it ready. Pros and homeowners, residential and commercial — one
+              shop that stands behind what it does.
             </p>
             <ul className="mt-7 space-y-3.5">
               {[
-                { icon: Boxes, text: "Deep in-stock plumbing inventory" },
-                { icon: ShieldCheck, text: "Contractor accounts & trade pricing" },
-                { icon: Store, text: "Residential & commercial supply" },
+                { icon: ShieldCheck, text: "Licensed plumbers for repairs & installs" },
+                { icon: Store, text: "Upfront pricing, no surprises" },
+                { icon: Boxes, text: "Full supply counter for DIY & trade" },
                 { icon: MapPin, text: site.address },
               ].map(({ icon: Icon, text }) => (
                 <li key={text} className="flex items-center gap-3 font-semibold text-char">

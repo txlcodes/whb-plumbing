@@ -7,41 +7,41 @@ import Reveal from "@/components/Reveal";
 import { site, services, steps } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Departments | WHB Plumbing — Plumbing Store & Supply in Anniston, AL",
+  title: "Services | WHB Plumbing — Repair, Installation & Supply in Anniston, AL",
   description:
-    "Pipe, fittings & valves, faucets, fixtures, water heaters, tools and repair parts plus contractor will-call — a full plumbing store & supply house in Anniston, AL. Call (256) 235-9000.",
+    "Drain cleaning, water heater installation, fixture installs and repiping, plus a full supply counter for pipe, fittings and repair parts — WHB Plumbing in Anniston, AL. Call (256) 235-9000.",
 };
 
 const DETAILS: Record<string, string[]> = {
-  "Pipe, Fittings & Valves": [
+  "Drain Cleaning & Leak Repair": [
+    "Clogged & slow drains",
+    "Leak detection & pipe repair",
+    "Hidden slab & wall leaks",
+    "Upfront price before we start",
+  ],
+  "Water Heater Installation & Repair": [
+    "Tank & tankless installation",
+    "Pilot, thermocouple & element repair",
+    "Gas & electric units",
+    "Same-week scheduling",
+  ],
+  "Fixture & Faucet Installation": [
+    "Faucets, toilets, sinks & tubs",
+    "Clean, professional installs",
+    "Matched fittings & hardware",
+    "Remodels & quick replacements",
+  ],
+  "Repiping & Gas Line Work": [
+    "Copper, PVC & PEX repiping",
+    "New gas line runs",
+    "Pressure-tested, code compliant",
+    "Residential & commercial",
+  ],
+  "Pipe, Fittings & Valves (Supply)": [
     "Copper, PVC, PEX, CPVC & galvanized",
     "Couplings, elbows, tees & unions",
     "Ball, gate & shut-off valves",
     "The sizes you actually need, in stock",
-  ],
-  "Faucets & Trim": [
-    "Kitchen & bath faucets",
-    "Shower & tub trim",
-    "Supply lines, stops & connectors",
-    "Cartridges & repair parts to match",
-  ],
-  "Toilets, Sinks & Tubs": [
-    "Toilets, tanks & internals",
-    "Sinks, lavatories & tubs",
-    "Flanges, gaskets & wax rings",
-    "Mounting hardware & hookups",
-  ],
-  "Water Heaters & Parts": [
-    "Tank & tankless water heaters",
-    "Thermocouples & heating elements",
-    "T&P valves & drain valves",
-    "Flex connectors & fittings",
-  ],
-  "Tools & Repair Parts": [
-    "Pipe wrenches, cutters & torches",
-    "Solder, flux & pipe dope",
-    "Sealants, tape & thread compound",
-    "Hard-to-find repair parts",
   ],
   "Contractor Counter & Will-Call": [
     "Trade accounts & contractor pricing",
@@ -55,9 +55,9 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        kicker="Our departments"
-        title="Everything plumbing, under one roof."
-        desc="From a single repair part to a full contractor list — deep in-stock inventory and a counter that knows what it's selling."
+        kicker="Our services"
+        title="Repairs, installs & supply — done right."
+        desc="From a leaking pipe to a full water heater install, or just the part to do it yourself — licensed plumbers and a supply counter that knows what it's selling."
       />
 
       <section className="container-x py-16 md:py-20">

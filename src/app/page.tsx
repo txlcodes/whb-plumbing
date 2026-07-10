@@ -50,12 +50,13 @@ const VALUE_ICON = {
   store: Store,
   handshake: Handshake,
   warehouse: Warehouse,
+  wrench: Wrench,
 } as const;
 
 const STATS = [
-  { value: 14, suffix: "", label: "Towns We Supply" },
-  { value: 2, suffix: "", label: "Pros & DIY Both Welcome" },
-  { value: 6, suffix: "", label: "Product Departments" },
+  { value: 14, suffix: "", label: "Towns We Serve" },
+  { value: 2, suffix: "", label: "Services & Supply, One Call" },
+  { value: 6, suffix: "", label: "Repairs, Installs & Departments" },
 ];
 
 export default function Home() {
@@ -77,17 +78,17 @@ export default function Home() {
               <Droplets size={13} /> Anniston, Alabama
             </span>
             <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-[1.05] text-linen sm:text-5xl lg:text-[3.4rem]">
-              Anniston&apos;s Plumbing Store &amp;{" "}
-              <span className="text-grad">Supply</span>
+              Anniston&apos;s Plumbing Repair,{" "}
+              <span className="text-grad">Installation &amp; Supply</span>
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-sand/85">
-              Pipe, fittings, fixtures, water heaters, tools and repair parts — deep in stock and
-              ready to grab today. A real store &amp; supply house where the counter staff actually know
-              plumbing, for the contractors and homeowners of Calhoun County.
+              Licensed plumbers for repairs, installs and service calls — plus a full supply
+              counter for the parts to do it yourself. One local shop, upfront pricing, for
+              contractors and homeowners across Calhoun County.
             </p>
             <p className="mt-4 max-w-xl leading-relaxed text-sand/85">
-              Call your list in, we&apos;ll pull it. Bring the old part, we&apos;ll match it. No
-              big-box runaround.
+              Got a leak, a broken water heater, or just need a part? Call your list in or call
+              the job in — either way, we&apos;ve got you.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -138,13 +139,13 @@ export default function Home() {
         <div className="grid gap-14 lg:grid-cols-2">
           <Reveal variant="left">
             <h2 className="text-3xl font-bold leading-tight md:text-4xl">
-              Tired of Driving All Over Town for{" "}
-              <span className="text-ember">One Part?</span>
+              Tired of Plumbers Who Never{" "}
+              <span className="text-ember">Show Up?</span>
             </h2>
             <p className="mt-5 leading-relaxed text-bark">
-              Whether you&apos;re a plumber on the clock or a homeowner mid-repair, the last thing
-              you need is a wasted trip. We hear the same frustrations across Anniston and Calhoun
-              County:
+              Whether you need a repair done right or just the part to do it yourself, the last
+              thing you need is another runaround. We hear the same frustrations across Anniston
+              and Calhoun County:
             </p>
             <ul className="mt-6 space-y-3">
               {painPoints.map((p) => (
@@ -155,7 +156,7 @@ export default function Home() {
               ))}
             </ul>
             <p className="mt-6 font-semibold text-soot">
-              That&apos;s exactly why Calhoun County pros and homeowners shop WHB Plumbing.
+              That&apos;s exactly why Calhoun County pros and homeowners call WHB Plumbing.
             </p>
           </Reveal>
 
@@ -252,15 +253,14 @@ export default function Home() {
               WHB Plumbing
             </h2>
             <p className="mt-5 leading-relaxed text-sand/80">
-              For homeowners and contractors across Anniston and Calhoun County, WHB Plumbing
-              is the plumbing store &amp; supply house that keeps the job moving. From pipe, fittings and
-              valves to faucets, fixtures, water heaters, tools and hard-to-find repair parts, we
-              carry a deep in-stock selection — and the people who know how to match it.
+              For homeowners and contractors across Anniston and Calhoun County, WHB Plumbing is
+              the shop that gets the job done — licensed plumbers for repairs, installs and
+              service calls, with upfront pricing and no surprises once the work starts.
             </p>
             <p className="mt-4 leading-relaxed text-sand/80">
-              Bring in the old part or call your list ahead. We&apos;ll confirm what&apos;s on the
-              shelf, apply your contractor pricing, and have it ready at the counter so you can
-              get back to work.
+              Doing it yourself instead? Our supply counter stocks the pipe, fittings, fixtures
+              and parts to back you up. Bring in the old part or call your list ahead — we&apos;ll
+              confirm what&apos;s on the shelf and have it ready.
             </p>
             <Link
               href="/about"
@@ -275,8 +275,8 @@ export default function Home() {
       {/* ============ WHAT WE DO (image cards + label bars) ============ */}
       <section className="container-x py-20 md:py-24">
         <Reveal className="text-center">
-          <span className="kicker justify-center">What we carry</span>
-          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Everything Under One Roof</h2>
+          <span className="kicker justify-center">What we do</span>
+          <h2 className="mt-3 text-3xl font-bold md:text-4xl">Repairs, Installs &amp; Supply — Under One Roof</h2>
         </Reveal>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
@@ -408,19 +408,18 @@ export default function Home() {
           <Reveal variant="left">
             <h2 className="text-3xl font-bold leading-tight md:text-4xl">
               <span className="text-ember">Anniston &amp; Calhoun County&apos;s</span> Plumbing
-              Store &amp; Supply Source
+              Repair, Install &amp; Supply Source
             </h2>
             <p className="mt-5 leading-relaxed text-bark">
-              WHB Plumbing is the kind of store &amp; supply house customers recommend without
-              hesitation — not because we talk big, but because we&apos;ve got the part, we know
-              what it&apos;s for, and we treat pros and homeowners the same. Around Anniston,
-              people come to us when they want it in stock, priced fair, and figured out right.
+              WHB Plumbing is the kind of shop customers recommend without hesitation — not
+              because we talk big, but because we show up, quote it straight, and do the work
+              right. Licensed plumbers for repairs and installs, and a real supply counter behind
+              them.
             </p>
             <p className="mt-4 leading-relaxed text-bark">
-              Whether it&apos;s a single repair part or a full list for a commercial build-out, we
-              take the time to get you the right pieces the first time. Residential and commercial,
-              contractor and DIY — one counter, deep shelves, and people who stand behind what
-              they sell.
+              Whether it&apos;s a leaking pipe, a new water heater, or a single part for a
+              commercial build-out, we take the time to get it right the first time. Residential
+              and commercial, service call and DIY — one shop that stands behind what it does.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
