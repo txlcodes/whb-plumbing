@@ -30,7 +30,7 @@ export default function CTA() {
                 href="/contact"
                 className="inline-flex items-center gap-2 rounded-md border border-sand/40 px-7 py-3.5 font-bold text-linen transition-colors hover:border-glow hover:text-glow"
               >
-                Check Stock
+                Get a Quote
                 <ArrowRight size={17} />
               </Link>
             </div>

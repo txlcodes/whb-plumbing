@@ -432,7 +432,7 @@ export default function Home() {
                 href="/contact"
                 className="inline-flex items-center gap-2 rounded-md border-2 border-ember px-7 py-4 font-bold uppercase tracking-wide text-ember transition-colors hover:bg-ember hover:text-white"
               >
-                Check Stock
+                Get a Quote
               </Link>
             </div>
           </Reveal>

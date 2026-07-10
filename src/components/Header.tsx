@@ -80,12 +80,12 @@ Plumbing repair, installation &amp; supply — Anniston &amp; Calhoun County
                 </span>
               </span>
             </a>
-            <Link
-              href="/contact"
+            <a
+              href={site.phoneHref}
               className="bg-grad btn-shine hidden rounded-md px-5 py-3 text-sm font-bold uppercase tracking-wide text-white shadow-lg shadow-ember/30 transition-transform hover:scale-[1.03] lg:inline-flex"
             >
-              Check Stock
-            </Link>
+              Call Now
+            </a>
           </div>
 
           <button
