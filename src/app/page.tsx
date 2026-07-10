@@ -75,33 +75,34 @@ export default function Home() {
         <div className="container-x relative grid items-center gap-10 py-16 lg:grid-cols-[1.15fr_0.85fr] lg:py-24">
           <Reveal variant="left">
             <span className="inline-flex items-center gap-2 rounded-md bg-ember/20 px-3 py-1.5 text-[0.72rem] font-bold uppercase tracking-[0.14em] text-glow ring-1 ring-ember/40">
-              <Droplets size={13} /> Anniston, Alabama
+              <Wrench size={13} /> Anniston&apos;s Repair Plumber
             </span>
             <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-[1.05] text-linen sm:text-5xl lg:text-[3.4rem]">
-              Anniston&apos;s Plumbing Repair,{" "}
-              <span className="text-grad">Installation &amp; Supply</span>
+              Got a Leak? Call a{" "}
+              <span className="text-grad">Real Repair Plumber</span>
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-sand/85">
-              Licensed plumbers for repairs, installs and service calls — plus a full supply
-              counter for the parts to do it yourself. One local shop, upfront pricing, for
-              contractors and homeowners across Calhoun County.
+              Licensed plumbers who show up, diagnose it right, and give you the price before
+              they touch a wrench. Repairs, installs and service calls for homeowners and
+              contractors across Calhoun County — plus a supply counter if you'd rather do it
+              yourself.
             </p>
             <p className="mt-4 max-w-xl leading-relaxed text-sand/85">
-              Got a leak, a broken water heater, or just need a part? Call your list in or call
-              the job in — either way, we&apos;ve got you.
+              A leaking pipe, a broken water heater, a drain that won&apos;t clear — call the
+              job in and we&apos;ll get it fixed.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href={site.phoneHref}
                 className="bg-grad btn-shine inline-flex items-center gap-2 rounded-md px-7 py-4 font-bold uppercase tracking-wide text-white shadow-xl shadow-ember/30 transition-transform hover:scale-[1.03]"
               >
-                <Phone size={18} /> Call Now
+                <Phone size={18} /> Call a Plumber Now
               </a>
               <Link
                 href="/services"
                 className="inline-flex items-center gap-2 rounded-md border border-white/40 bg-white/5 px-7 py-4 font-bold uppercase tracking-wide text-linen backdrop-blur transition-colors hover:border-glow hover:text-glow"
               >
-                Our Departments <ArrowRight size={17} />
+                Our Repair Services <ArrowRight size={17} />
               </Link>
             </div>
           </Reveal>

@@ -29,10 +29,11 @@ export default function HeroForm() {
       <div className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full bg-white/10 blur-2xl" />
       <div className="relative">
         <h3 className="text-2xl font-bold uppercase leading-tight text-white md:text-[1.7rem]">
-          Check Stock &amp; Pricing
+          Request a Repair
         </h3>
         <p className="mt-1 text-sm text-white/85">
-          Send your list or part — we&apos;ll confirm what&apos;s in stock and call you back.
+          Tell us what&apos;s going on — a repair, an install, or a part — and we&apos;ll call you
+          back.
         </p>
 
         {sent ? (

@@ -40,7 +40,7 @@ export default function Header() {
       <div className="bg-grad text-white">
         <div className="container-x flex h-10 items-center justify-between gap-3">
           <p className="truncate text-[0.72rem] font-semibold uppercase tracking-[0.08em] sm:text-[0.8rem]">
-Plumbing repair, installation &amp; supply — Anniston &amp; Calhoun County
+Anniston's repair plumber — leaks, installs &amp; service calls
           </p>
           <div className="flex items-center gap-2">
             {socials.map((s) => (
@@ -61,7 +61,7 @@ Plumbing repair, installation &amp; supply — Anniston &amp; Calhoun County
 
       {/* black main bar */}
       <div className="bg-soot">
-        <div className="container-x flex h-[5.75rem] items-center justify-between">
+        <div className="container-x flex h-[7rem] items-center justify-between">
           <Link href="/" aria-label="WHB Plumbing — home">
             <Logo dark />
           </Link>

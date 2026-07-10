@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Logo({
-  className = "h-16 w-auto md:h-[4.6rem]",
+  className = "h-20 w-auto md:h-[6rem]",
 }: {
   dark?: boolean;
   className?: string;

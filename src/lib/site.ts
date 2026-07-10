@@ -7,8 +7,8 @@ export const site = {
   address: "710 Wilmer Ave, Anniston, AL 36201",
   mapsHref: "https://maps.google.com/?q=710+Wilmer+Ave,+Anniston,+AL+36201",
   hours: "Open until 9 PM — call ahead to confirm today's hours",
-  tagline: "Anniston's plumbing repair, installation & supply — done right.",
-  serving: "Plumbing services & supply for Anniston & Calhoun County",
+  tagline: "Anniston's repair plumber — leaks, installs & service calls done right.",
+  serving: "Repair plumbing, installs & supply for Anniston & Calhoun County",
 };
 
 export const nav = [
@@ -25,11 +25,11 @@ export const socials = [
   { label: "Instagram", href: "#", icon: "youtube" }, // placeholder — confirm real page
 ];
 
-// Red icon strip directly under the hero — 3 service / 1 supply
+// Red icon strip directly under the hero — repair-plumber led, one supply
 export const serviceStrip = [
-  { label: "Repair & Service Calls", icon: "wrench" },
-  { label: "Water Heater Install", icon: "gauge" },
-  { label: "Drain & Leak Repair", icon: "droplets" },
+  { label: "Emergency Repairs", icon: "wrench" },
+  { label: "Leak & Drain Repair", icon: "droplets" },
+  { label: "Water Heater Repair", icon: "gauge" },
   { label: "Pipe & Fixture Supply", icon: "showerhead" },
 ];
 
