@@ -1,9 +1,9 @@
 export const site = {
-  name: "Banks & Head Agency, Inc.",
-  shortName: "Banks & Head",
+  name: "WHB Plumbing",
+  shortName: "WHB Plumbing",
   phone: "(256) 235-9000",
   phoneHref: "tel:+12562359000",
-  email: "info@banksandhead.com", // placeholder — confirm with client
+  email: "info@whbplumbing.com", // placeholder — confirm with client
   address: "710 Wilmer Ave, Anniston, AL 36201",
   mapsHref: "https://maps.google.com/?q=710+Wilmer+Ave,+Anniston,+AL+36201",
   hours: "Open until 9 PM — call ahead to confirm today's hours",
@@ -166,7 +166,7 @@ export const testimonials = [
   {
     name: "Dwight R.",
     area: "Anniston, AL",
-    text: "I run service calls all over Calhoun County and Banks & Head is my first stop every morning. They've got the fittings in stock, my account's ready, and the counter guys know their stuff. Saves me an hour a day.",
+    text: "I run service calls all over Calhoun County and WHB Plumbing is my first stop every morning. They've got the fittings in stock, my account's ready, and the counter guys know their stuff. Saves me an hour a day.",
   },
   {
     name: "Carla M.",

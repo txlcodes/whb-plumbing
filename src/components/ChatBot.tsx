@@ -18,7 +18,7 @@ const QUICK = [
 export default function ChatBot() {
   const [open, setOpen] = useState(false);
   const [msgs, setMsgs] = useState<Msg[]>([
-    { from: "bot", text: "Hey there! 👋 Welcome to Banks & Head plumbing supply. What can we help you find?" },
+    { from: "bot", text: "Hey there! 👋 Welcome to WHB Plumbing. What can we help you find?" },
   ]);
   const [stage, setStage] = useState<Stage>("menu");
   const [input, setInput] = useState("");
@@ -95,7 +95,7 @@ export default function ChatBot() {
       {open && (
         <div className="fixed bottom-24 left-5 z-50 flex max-h-[70vh] w-[min(22rem,calc(100vw-2.5rem))] flex-col overflow-hidden rounded-lg border border-sand bg-cream shadow-2xl">
           <div className="bg-grad-deep px-4 py-3">
-            <p className="text-sm font-bold text-linen">Banks &amp; Head Plumbing Supply</p>
+            <p className="text-sm font-bold text-linen">WHB Plumbing</p>
             <p className="text-[0.7rem] text-sand/70">Usually replies within the hour</p>
           </div>
 

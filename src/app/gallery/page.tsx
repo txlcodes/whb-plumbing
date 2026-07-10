@@ -6,9 +6,9 @@ import Reveal from "@/components/Reveal";
 import { gallery } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Gallery | Banks & Head Agency — Plumbing Supplies in Anniston, AL",
+  title: "Gallery | WHB Plumbing — Plumbing Supplies in Anniston, AL",
   description:
-    "A look at the pipe, fittings, faucets, fixtures, water heaters, tools and repair parts stocked at Banks & Head Agency in Anniston, AL.",
+    "A look at the pipe, fittings, faucets, fixtures, water heaters, tools and repair parts stocked at WHB Plumbing in Anniston, AL.",
 };
 
 export default function GalleryPage() {

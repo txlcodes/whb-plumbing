@@ -19,9 +19,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Banks & Head Agency | Plumbing Supply in Anniston, AL — Pipe, Fittings, Fixtures & Parts",
+  title: "WHB Plumbing | Plumbing Supply in Anniston, AL — Pipe, Fittings, Fixtures & Parts",
   description:
-    "Banks & Head Agency is Anniston, AL's plumbing supply counter: pipe, fittings, valves, faucets, fixtures, water heaters, tools and repair parts for contractors and homeowners. Call (256) 235-9000.",
+    "WHB Plumbing is Anniston, AL's plumbing supply counter: pipe, fittings, valves, faucets, fixtures, water heaters, tools and repair parts for contractors and homeowners. Call (256) 235-9000.",
   keywords: [
     "plumbing supply Anniston AL",
     "plumbing supply store Anniston",

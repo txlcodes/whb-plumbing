@@ -155,7 +155,7 @@ export default function Home() {
               ))}
             </ul>
             <p className="mt-6 font-semibold text-soot">
-              That&apos;s exactly why Calhoun County pros and homeowners shop Banks &amp; Head.
+              That&apos;s exactly why Calhoun County pros and homeowners shop WHB Plumbing.
             </p>
           </Reveal>
 
@@ -229,7 +229,7 @@ export default function Home() {
               <div className="relative h-[24rem] w-full overflow-hidden rounded-lg shadow-2xl md:h-[26rem]">
                 <Image
                   src="/images/home.jpg"
-                  alt="Home served by Banks & Head plumbing supply"
+                  alt="Home served by WHB Plumbing"
                   fill
                   className="object-cover"
                 />
@@ -249,10 +249,10 @@ export default function Home() {
               Welcome To
             </span>
             <h2 className="mt-2 text-3xl font-bold text-linen md:text-4xl">
-              Banks &amp; Head Agency
+              WHB Plumbing
             </h2>
             <p className="mt-5 leading-relaxed text-sand/80">
-              For homeowners and contractors across Anniston and Calhoun County, Banks &amp; Head
+              For homeowners and contractors across Anniston and Calhoun County, WHB Plumbing
               is the plumbing supply counter that keeps the job moving. From pipe, fittings and
               valves to faucets, fixtures, water heaters, tools and hard-to-find repair parts, we
               carry a deep in-stock selection — and the people who know how to match it.
@@ -411,7 +411,7 @@ export default function Home() {
               Supply Source
             </h2>
             <p className="mt-5 leading-relaxed text-bark">
-              Banks &amp; Head Agency is the kind of supply house customers recommend without
+              WHB Plumbing is the kind of supply house customers recommend without
               hesitation — not because we talk big, but because we&apos;ve got the part, we know
               what it&apos;s for, and we treat pros and homeowners the same. Around Anniston,
               people come to us when they want it in stock, priced fair, and figured out right.
@@ -575,7 +575,7 @@ export default function Home() {
             <Reveal variant="right" delay={120}>
               <div className="h-full min-h-[26rem] overflow-hidden rounded-lg border border-sand shadow-xl">
                 <iframe
-                  title="Banks & Head Agency — 710 Wilmer Ave, Anniston, AL"
+                  title="WHB Plumbing — 710 Wilmer Ave, Anniston, AL"
                   src="https://www.google.com/maps?q=710+Wilmer+Ave,+Anniston,+AL+36201&output=embed"
                   className="h-full min-h-[26rem] w-full"
                   loading="lazy"

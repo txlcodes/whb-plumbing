@@ -6,7 +6,7 @@ import ContactForm from "@/components/ContactForm";
 import { site, areas } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contact | Banks & Head Agency — Anniston, AL",
+  title: "Contact | WHB Plumbing — Anniston, AL",
   description:
     "Call (256) 235-9000 or visit our counter at 710 Wilmer Ave, Anniston, AL for pipe, fittings, fixtures, water heaters and plumbing repair parts.",
 };
@@ -94,7 +94,7 @@ export default function ContactPage() {
         <Reveal className="mt-12">
           <div className="overflow-hidden rounded-lg border border-sand shadow-md">
             <iframe
-              title="Banks & Head Agency — 710 Wilmer Ave, Anniston, AL"
+              title="WHB Plumbing — 710 Wilmer Ave, Anniston, AL"
               src="https://www.google.com/maps?q=710+Wilmer+Ave,+Anniston,+AL+36201&output=embed"
               className="h-[22rem] w-full"
               loading="lazy"

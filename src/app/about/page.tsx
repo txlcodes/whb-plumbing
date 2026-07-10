@@ -7,9 +7,9 @@ import Reveal from "@/components/Reveal";
 import { site, reasons } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About | Banks & Head Agency — Anniston, AL's Plumbing Supply House",
+  title: "About | WHB Plumbing — Anniston, AL's Plumbing Supply House",
   description:
-    "Banks & Head Agency is Anniston's local plumbing supply counter: pipe, fittings, fixtures, water heaters and repair parts for contractors and homeowners on Wilmer Ave.",
+    "WHB Plumbing is Anniston's local plumbing supply counter: pipe, fittings, fixtures, water heaters and repair parts for contractors and homeowners on Wilmer Ave.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
       <PageHero
         kicker="About us"
         title="A local supply house that knows plumbing."
-        desc="Banks & Head Agency is where Anniston's plumbers and homeowners come for the part — a real counter, deep shelves, and advice you can trust."
+        desc="WHB Plumbing is where Anniston's plumbers and homeowners come for the part — a real counter, deep shelves, and advice you can trust."
       />
 
       <section className="container-x py-16 md:py-20">

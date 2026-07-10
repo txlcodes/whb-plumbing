@@ -62,7 +62,7 @@ export default function Header() {
       {/* black main bar */}
       <div className="bg-soot">
         <div className="container-x flex h-[4.75rem] items-center justify-between">
-          <Link href="/" aria-label="Banks & Head Agency — home">
+          <Link href="/" aria-label="WHB Plumbing — home">
             <Logo dark />
           </Link>
 

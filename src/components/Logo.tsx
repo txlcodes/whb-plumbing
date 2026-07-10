@@ -30,7 +30,7 @@ export default function Logo({ dark = false }: { dark?: boolean }) {
             dark ? "text-linen" : "text-soot"
           }`}
         >
-          Banks &amp; Head
+          WHB Plumbing
         </span>
         <span
           className={`block text-[0.62rem] font-semibold uppercase tracking-[0.28em] ${
