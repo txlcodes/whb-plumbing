@@ -91,7 +91,7 @@ export const services = [
   {
     title: "Drain Cleaning & Leak Repair",
     desc: "Clogged drains, slow leaks and hidden pipe damage — diagnosed and fixed right the first time, with a clear price before we start.",
-    img: "/images/plumber.jpg",
+    img: "/images/repair-plumber.jpg",
   },
   {
     title: "Water Heater Installation & Repair",
@@ -233,7 +233,7 @@ export const faqs = [
 ];
 
 export const gallery = [
-  { img: "/images/plumber.jpg", title: "Repairs & service calls" },
+  { img: "/images/repair-plumber.jpg", title: "Repairs & service calls" },
   { img: "/images/pipes.jpg", title: "Water heater installation" },
   { img: "/images/fixtures.jpg", title: "Fixture & faucet installs" },
   { img: "/images/tools.jpg", title: "Repiping & gas line work" },
