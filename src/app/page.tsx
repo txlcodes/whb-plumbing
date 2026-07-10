@@ -25,6 +25,7 @@ import Reveal from "@/components/Reveal";
 import CTA from "@/components/CTA";
 import HeroForm from "@/components/HeroForm";
 import StatCounter from "@/components/StatCounter";
+import WaterParticles from "@/components/WaterParticles";
 import {
   site,
   serviceStrip,
@@ -223,15 +224,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ============ WELCOME (black, overlapping images) ============ */}
-      <section className="bg-soot py-20 md:py-24">
-        <div className="container-x grid items-center gap-14 lg:grid-cols-2">
+      {/* ============ WELCOME (black, overlapping images + Three.js particles) ============ */}
+      <section className="relative overflow-hidden bg-soot py-20 md:py-24">
+        <WaterParticles className="z-0 opacity-70" />
+        <div className="container-x relative z-10 grid items-center gap-14 lg:grid-cols-2">
           <Reveal variant="left">
             <div className="relative">
               <div className="relative h-[24rem] w-full overflow-hidden rounded-lg shadow-2xl md:h-[26rem]">
                 <Image
-                  src="/images/home.jpg"
-                  alt="Home served by WHB Plumbing"
+                  src="/images/repair-plumber.jpg"
+                  alt="WHB Plumbing repair plumber on the job"
                   fill
                   className="object-cover"
                 />
