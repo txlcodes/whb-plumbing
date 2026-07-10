@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="md:col-span-2">
           <Logo dark />
           <p className="mt-4 max-w-md text-sm leading-relaxed">
-            The plumbing supply counter for Anniston and Calhoun County — pipe, fittings,
+            The plumbing store &amp; supply house for Anniston and Calhoun County — pipe, fittings,
             fixtures, water heaters, tools and repair parts for contractors and homeowners
             alike. Call your list in and we&apos;ll have it pulled.
           </p>

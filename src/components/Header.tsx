@@ -40,7 +40,7 @@ export default function Header() {
       <div className="bg-grad text-white">
         <div className="container-x flex h-10 items-center justify-between gap-3">
           <p className="truncate text-[0.72rem] font-semibold uppercase tracking-[0.08em] sm:text-[0.8rem]">
-            Anniston &amp; Calhoun County&apos;s plumbing supply counter
+            Plumbing store &amp; supply — Anniston &amp; Calhoun County
           </p>
           <div className="flex items-center gap-2">
             {socials.map((s) => (

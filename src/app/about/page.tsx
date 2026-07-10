@@ -7,9 +7,9 @@ import Reveal from "@/components/Reveal";
 import { site, reasons } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About | WHB Plumbing — Anniston, AL's Plumbing Supply House",
+  title: "About | WHB Plumbing — Anniston, AL's Plumbing Store & Supply House",
   description:
-    "WHB Plumbing is Anniston's local plumbing supply counter: pipe, fittings, fixtures, water heaters and repair parts for contractors and homeowners on Wilmer Ave.",
+    "WHB Plumbing is Anniston's local plumbing store & supply house: pipe, fittings, fixtures, water heaters and repair parts for contractors and homeowners on Wilmer Ave.",
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
     <>
       <PageHero
         kicker="About us"
-        title="A local supply house that knows plumbing."
+        title="A plumbing store and supply house in one."
         desc="WHB Plumbing is where Anniston's plumbers and homeowners come for the part — a real counter, deep shelves, and advice you can trust."
       />
 
@@ -26,7 +26,7 @@ export default function AboutPage() {
           <Reveal>
             <span className="kicker">Who we are</span>
             <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-              More than a store — a plumbing supply house.
+              A retail store and a real supply house.
             </h2>
             <p className="mt-5 leading-relaxed text-bark">
               Big-box stores stock a little of everything and know none of it. We do it
@@ -37,7 +37,7 @@ export default function AboutPage() {
             <p className="mt-4 leading-relaxed text-bark">
               Bring in the old part or call your list ahead. We&apos;ll match it, confirm
               what&apos;s in stock, apply your contractor pricing, and have it ready at the
-              counter. Pros and homeowners, residential and commercial — one supply house that
+              counter. Pros and homeowners, residential and commercial — one store &amp; supply house that
               stands behind what it sells.
             </p>
             <ul className="mt-7 space-y-3.5">

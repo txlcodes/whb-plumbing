@@ -77,12 +77,12 @@ export default function Home() {
               <Droplets size={13} /> Anniston, Alabama
             </span>
             <h1 className="mt-4 max-w-2xl text-4xl font-bold leading-[1.05] text-linen sm:text-5xl lg:text-[3.4rem]">
-              Anniston&apos;s Plumbing Supply{" "}
-              <span className="text-grad">Counter</span>
+              Anniston&apos;s Plumbing Store &amp;{" "}
+              <span className="text-grad">Supply</span>
             </h1>
             <p className="mt-5 max-w-xl leading-relaxed text-sand/85">
               Pipe, fittings, fixtures, water heaters, tools and repair parts — deep in stock and
-              ready to grab today. A real supply house where the counter staff actually know
+              ready to grab today. A real store &amp; supply house where the counter staff actually know
               plumbing, for the contractors and homeowners of Calhoun County.
             </p>
             <p className="mt-4 max-w-xl leading-relaxed text-sand/85">
@@ -253,7 +253,7 @@ export default function Home() {
             </h2>
             <p className="mt-5 leading-relaxed text-sand/80">
               For homeowners and contractors across Anniston and Calhoun County, WHB Plumbing
-              is the plumbing supply counter that keeps the job moving. From pipe, fittings and
+              is the plumbing store &amp; supply house that keeps the job moving. From pipe, fittings and
               valves to faucets, fixtures, water heaters, tools and hard-to-find repair parts, we
               carry a deep in-stock selection — and the people who know how to match it.
             </p>
@@ -408,10 +408,10 @@ export default function Home() {
           <Reveal variant="left">
             <h2 className="text-3xl font-bold leading-tight md:text-4xl">
               <span className="text-ember">Anniston &amp; Calhoun County&apos;s</span> Plumbing
-              Supply Source
+              Store &amp; Supply Source
             </h2>
             <p className="mt-5 leading-relaxed text-bark">
-              WHB Plumbing is the kind of supply house customers recommend without
+              WHB Plumbing is the kind of store &amp; supply house customers recommend without
               hesitation — not because we talk big, but because we&apos;ve got the part, we know
               what it&apos;s for, and we treat pros and homeowners the same. Around Anniston,
               people come to us when they want it in stock, priced fair, and figured out right.
@@ -452,7 +452,7 @@ export default function Home() {
                 </span>
                 <div>
                   <p className="text-sm font-bold text-linen">{site.address}</p>
-                  <p className="text-xs text-sand/70">Local supply counter · will-call ready</p>
+                  <p className="text-xs text-sand/70">Local store &amp; supply · will-call ready</p>
                 </div>
               </div>
             </div>

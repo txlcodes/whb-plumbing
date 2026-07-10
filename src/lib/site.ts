@@ -7,8 +7,8 @@ export const site = {
   address: "710 Wilmer Ave, Anniston, AL 36201",
   mapsHref: "https://maps.google.com/?q=710+Wilmer+Ave,+Anniston,+AL+36201",
   hours: "Open until 9 PM — call ahead to confirm today's hours",
-  tagline: "Anniston's plumbing supply counter — pipe, fittings, fixtures & parts.",
-  serving: "The plumbing supply house for Anniston & Calhoun County",
+  tagline: "Anniston's plumbing store & supply — pipe, fittings, fixtures & parts.",
+  serving: "The plumbing store & supply house for Anniston & Calhoun County",
 };
 
 export const nav = [

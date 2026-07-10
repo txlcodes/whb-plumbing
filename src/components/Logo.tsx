@@ -37,7 +37,7 @@ export default function Logo({ dark = false }: { dark?: boolean }) {
             dark ? "text-sand/70" : "text-bark/70"
           }`}
         >
-          Plumbing Supply · Anniston, AL
+          Plumbing Store &amp; Supply · Anniston, AL
         </span>
       </span>
     </span>

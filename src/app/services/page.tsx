@@ -7,9 +7,9 @@ import Reveal from "@/components/Reveal";
 import { site, services, steps } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Departments | WHB Plumbing — Plumbing Supply in Anniston, AL",
+  title: "Departments | WHB Plumbing — Plumbing Store & Supply in Anniston, AL",
   description:
-    "Pipe, fittings & valves, faucets, fixtures, water heaters, tools and repair parts plus contractor will-call — a full plumbing supply house in Anniston, AL. Call (256) 235-9000.",
+    "Pipe, fittings & valves, faucets, fixtures, water heaters, tools and repair parts plus contractor will-call — a full plumbing store & supply house in Anniston, AL. Call (256) 235-9000.",
 };
 
 const DETAILS: Record<string, string[]> = {
