@@ -23,7 +23,6 @@ import {
 } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import CTA from "@/components/CTA";
-import HeroForm from "@/components/HeroForm";
 import StatCounter from "@/components/StatCounter";
 import WaterParticles from "@/components/WaterParticles";
 import {
@@ -109,7 +108,24 @@ export default function Home() {
           </Reveal>
 
           <Reveal variant="right" delay={140}>
-            <HeroForm />
+            <div className="card-lift relative overflow-hidden rounded-lg shadow-2xl shadow-black/40 ring-1 ring-white/10">
+              <Image
+                src="/images/whb-truck.jpg"
+                alt="WHB Plumbing service van"
+                width={1881}
+                height={836}
+                priority
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-soot/90 to-transparent p-5">
+                <p className="text-sm font-bold uppercase tracking-wide text-linen">
+                  On the road across Calhoun County
+                </p>
+                <a href={site.phoneHref} className="mt-1 block text-2xl font-bold text-glow">
+                  {site.phone}
+                </a>
+              </div>
+            </div>
           </Reveal>
         </div>
       </section>
